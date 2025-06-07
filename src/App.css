@@ -1,0 +1,77 @@
+:root {
+  --nyt-franklin: "nyt-franklin", helvetica, arial, sans-serif;
+  --nyt-cheltenham: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  --nyt-imperial: "nyt-imperial", georgia, "times new roman", times, serif;
+
+  --nyt-black: #121212;
+  --nyt-gray: #666666;
+  --nyt-light-gray: #f7f7f7;
+  --nyt-border: #e2e2e2;
+
+  --content-width-max: 1200px;
+  --content-width-article: 740px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--nyt-imperial);
+  color: var(--nyt-black);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: var(--content-width-max);
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--content-width-max);
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+h2, h3 {
+  font-family: var(--nyt-cheltenham);
+  font-weight: 500;
+}
+
+p {
+  font-family: var(--nyt-imperial);
+  font-size: 1.0625rem;
+  line-height: 1.875;
+}
+
+a {
+  color: var(--nyt-black);
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding: 0 1.5rem;
+  }
+  main {
+    padding-top: 2.5rem;
+  }
+}

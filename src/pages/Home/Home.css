@@ -1,0 +1,37 @@
+.nytr-home {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nytr-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.nytr-main-article {
+  border-right: 1px solid var(--nyt-border);
+  padding-right: 2rem;
+}
+
+.nytr-side-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .nytr-home {
+    padding: 1rem;
+  }
+  .nytr-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .nytr-main-article {
+    border-right: none;
+    padding-right: 0;
+  }
+}

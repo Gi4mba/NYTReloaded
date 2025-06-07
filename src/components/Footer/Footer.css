@@ -1,0 +1,17 @@
+footer {
+    padding: 2rem 1rem 0;
+    background-color: white;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+    .footer-text {
+        display: flex;
+        justify-self: center;
+        font-size: 0.6rem;
+    }
+}
