@@ -4,6 +4,12 @@ Responsivness grants comfortable reading on smaller screens.
 
 # Functioning
 The site's modularity and React-written code, aim to:
+# NYTReloaded
+A modern, lighter and more intuitive home page for The New York Times website. Improved content readability due to grid layout enhancement.
+Responsivness grants comfortable reading on smaller screens.
+
+# Functioning
+The site's modularity and React-written code, aim to:
 
 - Reduce the boilerplate
 - Improve insulation
