@@ -3,6 +3,7 @@
 
 # Production build
 /dist
+.env.production
 
 #Firebase
 /.firebase
