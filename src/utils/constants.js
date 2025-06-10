@@ -1,4 +1,4 @@
-export const API_KEY = 'stlxWgrcgaSW3bGFVcbnZSxHyt6JlEeI';
+export const API_KEY = import.meta.env.VITE_NYTR_API_KEY;
 export const BASE_URL = 'https://api.nytimes.com/svc/topstories/v2';
 
 export const AVAILABLE_SECTIONS = [

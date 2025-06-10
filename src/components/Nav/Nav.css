@@ -211,20 +211,15 @@ a:hover {
   }
 
   .menu-open .hamburger-menu span:last-child {
-    transform: rotate(-45deg) translate(7px, -5px);
+    transform: rotate(-45deg) translate(6px, -5px);
   }
 }
 
-/* @media (max-width: 768px) {
-  nav {
-    display: none;
+@media (min-width: 768px) {
+  .menu-open .hamburger-menu span:first-child {
+    transform: rotate(45deg) translate(7px, 7px);
   }
-
-  .nav-item {
-    padding: 0.25rem;
+  .menu-open .hamburger-menu span:last-child {
+    transform: rotate(-45deg) translate(7px, -6px);
   }
-
-  .nav-link-container a {
-    font-size: 0.8125rem;
-  }
-} */
+}
