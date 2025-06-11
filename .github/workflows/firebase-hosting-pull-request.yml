@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm ci && npm run build
-      - env:
+      - name: Install & Build
+        run: npm ci && npm run build
+        env:
           VITE_NYTR_API_KEY: ${{ secrets.VITE_NYTR_API_KEY }}
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
